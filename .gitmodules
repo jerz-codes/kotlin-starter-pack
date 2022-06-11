@@ -1,0 +1,3 @@
+[submodule "deps/kotlin-utils"]
+	path = deps/kotlin-utils
+	url = https://github.com/jerzmanowice-kotlin/kotlin-utils.git
