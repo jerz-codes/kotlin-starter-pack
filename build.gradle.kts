@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation("jerzmanowice:terminal")
+    implementation("jerz.codes:terminal")
 }
 
 tasks.withType<KotlinCompile> {
