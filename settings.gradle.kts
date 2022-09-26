@@ -6,4 +6,8 @@ includeBuild("deps/kotlin-utils") {
         substitute(module("jerz.codes:terminal"))
             .with(project(":terminal"))
     }
+    dependencySubstitution {
+        substitute(module("jerz.codes:dirs"))
+            .with(project(":dirs"))
+    }
 }

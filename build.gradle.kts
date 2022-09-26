@@ -13,6 +13,7 @@ repositories {
 
 dependencies {
     implementation("jerz.codes:terminal")
+    implementation("jerz.codes:dirs")
 }
 
 tasks.withType<KotlinCompile> {
