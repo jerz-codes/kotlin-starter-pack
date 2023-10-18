@@ -12,6 +12,7 @@ repositories {
 dependencies {
     implementation("jerz.codes:terminal")
     implementation("jerz.codes:dirs")
+    implementation("jerz.codes:pixelart")
 }
 
 java {

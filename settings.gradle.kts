@@ -10,4 +10,8 @@ includeBuild("deps/kotlin-utils") {
         substitute(module("jerz.codes:dirs"))
             .using(project(":dirs"))
     }
+    dependencySubstitution {
+        substitute(module("jerz.codes:pixelart"))
+            .using(project(":pixelart"))
+    }
 }
